@@ -23,3 +23,7 @@ var aluno = turma[0]
 console.log(aluno + " - " + aluno.media())
 aluna = turma[1]
 console.log(aluna + " - " + aluna.media())
+// OU para Deixar Mais fácil
+turma.forEach(function(things) {
+    console.log(things.nome + "  -  " + things.media()) // Assim Caso Existisse MAis de 1000 Alunos o Processo De Verificação Seria automatico
+})
