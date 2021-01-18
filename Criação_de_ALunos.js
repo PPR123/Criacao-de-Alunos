@@ -1,4 +1,4 @@
-//Primeiramente Criremos uma Function
+//Primeiramente Criaremos uma Function
 function criaraluno(nome,n1,n2) {
     return {
         nome : nome,
